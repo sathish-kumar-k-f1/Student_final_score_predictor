@@ -1,0 +1,51 @@
+*{
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.container{
+    background-color:  rgba(47, 49, 53, 0.792);
+    background-image: url("https://t3.ftcdn.net/jpg/11/54/97/26/240_F_1154972662_kGGUiSrwTtpladF0GauXftyaF7mo9iWM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.inputContainer{
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+input{
+    background-color: rgba(177, 187, 202,0.3);
+    border: none;
+    padding: 5px;
+    margin: 5px;
+}
+input:hover{
+    cursor: pointer;
+    border-color: aliceblue;
+}
+
+.welcome{
+    text-align: center;
+    padding: 15px;
+    color: rgb(177, 187, 202)
+}
+
+.prtbtn{
+    padding: 8px;
+  
+    border: 1px solid rgba(19, 19, 94, 0.63);
+    border-radius: 7px;
+    color: rgb(177, 187, 202);
+    background-color: rgb(46, 91, 154);
+}
+.result{
+    align-content: center;
+    padding: 20px;
+    color: rgb(177, 187, 202)
+}
